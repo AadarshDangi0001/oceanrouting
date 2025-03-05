@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ship Routing - Dynamic Route Update</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css"> <!-- External CSS file -->
+</head>
+<body>
+  <div class="controls">
+    <select id="routeSelector">
+      <option value="india_south_america">India to South America</option>
+      <option value="india_australia">India to Australia</option>
+      <option value="india_africa">India to Africa</option>
+      <option value="india_europe">Rotterdam to singapur</option>
+    </select>
+    <button onclick="loadRoute()">Load Route</button>
+    <button onclick="startTravel()">Travel</button>
+    <button onclick="stopTravel()">Stop</button>
+  </div>
+  <div id="map"></div>
+  <div class="info">
+    <p>Distance: <span id="distance">-</span></p>
+    <p>Estimated Time: <span id="time">-</span></p>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
