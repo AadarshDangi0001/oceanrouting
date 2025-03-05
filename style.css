@@ -36,6 +36,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 999;
    
    
 }
@@ -126,4 +127,22 @@ body {
     border-radius: 10px;
     margin-top: 20px;
     text-align: center;
+  }
+
+  @media(max-width: 480px) {
+
+    .main{
+   flex-direction: column;
+    }
+
+   .controls{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 70vw;
+    }
+
+    #map {
+      height: 60vh; /* 60% of viewport height */
+      width: 80vw;
+
+    }
   }
