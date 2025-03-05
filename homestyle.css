@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Pontano Sans, "Gill Sans", "Gill Sans MT", Calibri,
+        "Trebuchet MS", sans-serif;
+}
+
+html,
+body {
+    padding: 1rem;
+    width: 100%;
+    Height: 100%;
+}
+
+.nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ship-routers{
+    display: flex;
+
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.ship-routers{
+    width:100%;
+    
+    object-fit: cover;
+}
+.other-elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+
+.other-elements h1 {
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: #016CA0;
+}
+
+.ship {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem 1.5rem;
+    width:7rem;
+    height: 20%;
+    font-size: 0.8rem;
+    font-weight: 100;
+    background-color: #016CA0;
+    color: white;
+}
+
+.image-1 {
+    width: 100%;
+
+    overflow: hidden;
+    /* background-color: aqua; */
+
+
+}
+
+.image-1 img {
+    width: 100%;
+    object-position: cover;
+    object-fit: cover;
+
+
+}
+.view2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;;
+
+}
+.right-part{
+    width:100%;
+    overflow: hidden;
+}
+.right-part img{
+    width:100%;
+    object-fit: cover;
+}
+.book{
+    margin-top: 1rem;
+}
+.left-part .book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#016CA0;
+    
+    width:40%;
+    background-color:white;
+    
+    border:1px solid #016CA0; 
+}
+.last-image{
+    margin-top:1rem;
+    width:100%;
+    overflow: hidden;
+}
+.last-image img{
+    width:70%;
+    object-fit: cover;
+}
+
+
+
+
+
+.map {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+
+.map img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.vessels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.arrow p {
+    font-size: 0.9rem;
+}
+
+.arrow img {
+    object-fit: cover;
+    width: 30%;
+
+
+}
+.shiproute{
+    text-decoration: none;
+    color: white;
+}
+.yacht-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.yacht-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right-side-img{
+    display: flex;
+}
+.lastpart{
+    width: 100%;
+    overflow:hidden;
+}
+.lastpart img{
+    width:100%;
+    object-fit: cover;
+}
+footer{
+    background-color:#016CA0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    gap:1rem;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:1rem;
+  }
+  
+  .first-line {
+    display: flex;
+    color:white;
+    gap: 20px; /* Adjust the gap between items as needed */
+  }
+  
+  .first-line p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 100;
+    cursor: pointer;
+  }
+  
+  .bo {
+    font-size: 1.1rem;
+    font-weight: 100;
+    cursor: pointer;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    
+    overflow: hidden;
+  }
+  
+  .icon-1 img {
+    width: 100%; 
+    object-fit: cover;
+  }
+  
+  .copyright {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+  }
+
+@media(min-width: 1020px) {
+    .other-elements {
+        gap: 3.5rem;
+    }
+
+    .other-elements h1 {
+        font-size: 1.5rem;
+
+    }
+
+    .ship {
+        width:10rem;
+        font-size: 1.4rem;
+        margin-right: 1.5rem;
+    }
+
+    .vessels {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 5rem;
+
+
+
+    }
+
+    .vessels .text {
+
+        padding:0rem 5rem;
+        margin-right: 2rem;
+
+    }
+
+    .arrow {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0rem 5rem;
+
+    }
+
+    .arrow p {
+        font-size: 2rem;
+        font-weight: 100;
+        /* Center the text */
+
+    }
+    .view2{
+        display: flex;
+        flex-direction: row;
+        gap:2rem;
+        line-height: 1.5;
+    }
+    .left-part .book{
+        width:15%;
+    }
+    .left-part p{
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+   
+    .yacht-img {
+        width: 100%;
+        /* max-width: 800px; */
+        /* margin: 0 auto;  */
+    }
+    .last-image{
+        width: 100%;
+        overflow: hidden;
+    }
+    .last-image img{
+        width:40%;
+        object-fit: cover;
+    }
+
+    .yacht-img img {
+        width: 100%;
+        padding: 5rem;
+        /* You might want to adjust this padding */
+    }
+    .first-line .one{
+        display:flex;
+        align-items: center;
+        color: white;
+        gap:1rem;
+    }
+    .first-line .two{
+        display:flex;
+        align-items: center;
+        color: white;
+        gap:1rem;
+    }
+
+    .first-line .three{
+        display:flex;
+        align-items: center;
+        color: white;
+        gap:1rem;
+    }
+    
+}

@@ -8,8 +8,17 @@
   <link rel="stylesheet" href="style.css"> <!-- External CSS file -->
 </head>
 <body>
+    
+<div class="main">
+
+
+<div id="map"></div>
   <div class="controls">
+    <h1 class="h1">
+        Routes Planner
+    </h1>
     <select id="routeSelector">
+    
       <option value="india_south_america">India to South America</option>
       <option value="india_australia">India to Australia</option>
       <option value="india_africa">India to Africa</option>
@@ -18,10 +27,11 @@
     <button onclick="loadRoute()">Load Route</button>
     <button onclick="startTravel()">Travel</button>
     <button onclick="stopTravel()">Stop</button>
-  </div>
-  <div id="map"></div>
+ 
+  
   <div class="info">
    
+    
     <p>Distance: <span id="distance">-</span></p>
     <p>Estimated Time: <span id="time">-</span></p>
     <p>Weather: <span id="weather">-</span></p>
@@ -30,6 +40,9 @@
     <p>Wind Speed: <span id="windSpeed">-</span></p>
   
   </div>
+</div>
+
+</div>
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
