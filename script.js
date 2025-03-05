@@ -1,46 +1,92 @@
 // Preset routes
+
 const routes = {
     india_south_america: [
         [76.74877, 10.41412], 
-[75.10653, 9.22536], 
-[74.10439, 8.78106],
-        [68.01208, 6.98607], 
-[68.01208, 6.98607], 
-[62.08531, 3.03311], 
-[60.39396, 2.31219], 
-[57.63595, 1.1746], 
-[55.66668, -0.99888], 
-[54.15573, -3.3501], 
-[52.25983, -5.73916], 
-[50.60455, -7.5039], 
-[49.11164, -9.61891], 
-[46.74168, -11.63907], 
-[44.81403, -13.76994], 
-[43.11508, -15.80137], 
-[41.63175, -17.94167], 
-[39.64705, -20.5725], 
-[37.36946, -23.37261], 
-[35.16065, -26.50676], 
-[32.31798, -30.12333], 
-[27.83041, -33.4648], 
-[22.9138, -34.79838], 
-[17.93141, -34.6145], 
-[14.06563, -33.58371], 
-[10.17522, -32.34552], 
-[6.48378, -31.03056], 
-[1.93322, -29.09886], 
-[-2.38509, -27.10958], 
-[-10.38532, -25.39792], 
-[-14.76092, -23.57753], 
-[-19.44921, -20.50243], 
-[-22.85015, -17.51946], 
-[-27.20505, -14.3128], 
-[-30.04406, -11.90057], 
-[-31.09328, -10.55392], 
-[-32.68293, -8.9295], 
-[-34.11367, -8.0748], 
-[-34.81361, -7.65898], 
-[-35.02491, -7.60365] // South America (Brazil)
+        [75.10653, 9.22536], 
+        [74.10439, 8.78106], 
+        [72.2658, 6.76509], 
+        [70.95625, 4.4139], 
+        [70.07304, 3.16407], 
+        [68.54505, 0.74925], 
+        [68.54505, 0.74925], 
+        [66.03715, -2.95687], 
+        [64.64467, -4.78282], 
+        [62.89451, -7.09509], 
+        [61.39193, -8.9857], 
+        [60.13656, -10.56718], 
+        [59.04505, -12.07631], 
+        [57.96568, -13.38736], 
+        [56.60885, -14.9433], 
+        [55.48523, -16.33096], 
+        [54.37496, -17.66415], 
+        [52.92959, -19.48304], 
+        [51.64396, -21.30151], 
+        [50.37651, -22.73439], 
+        [49.19362, -24.29475], 
+        [47.50056, -24.96463], 
+        [45.32459, -25.87342], 
+        [43.39249, -27.03885], 
+        [41.3704, -27.75809], 
+        [39.95023, -28.30886], 
+        [38.02518, -29.28719], 
+        [36.31965, -30.07979], 
+        [34.54029, -30.94106], 
+        [32.69413, -31.68932], 
+        [30.84164, -32.50855], 
+        [28.77813, -33.48022], 
+        [26.92753, -34.16753], 
+        [25.07925, -34.46607], 
+        [23.42628, -34.73791], 
+        [21.64935, -34.80752], 
+        [20.31356, -35.03356], 
+        [18.12585, -34.7594], 
+        [16.65508, -34.18649], 
+        [15.01676, -33.5263], 
+        [13.22765, -32.71493], 
+        [11.53753, -32.05619], 
+        [10.0526, -31.42164], 
+        [8.86583, -30.99583], 
+        [7.49631, -30.49089], 
+        [6.33835, -29.89929], 
+        [4.9758, -29.22701], 
+        [3.68753, -28.57946], 
+        [2.68937, -28.01495], 
+        [1.46963, -27.47855], 
+        [0.46504, -26.87209], 
+        [-0.83308, -26.28499], 
+        [-2.47192, -25.7015], 
+        [-3.47125, -25.14778], 
+        [-4.78464, -24.41435], 
+        [-5.79196, -23.82131], 
+        [-6.74133, -23.33514], 
+        [-7.90964, -22.66097], 
+        [-8.83477, -22.09489], 
+        [-9.72487, -21.74049], 
+        [-10.73913, -21.07894], 
+        [-11.71411, -20.44135], 
+        [-12.63295, -19.77022], 
+        [-13.76714, -18.98057], 
+        [-14.84092, -18.23862], 
+        [-15.90207, -17.50757], 
+        [-16.88128, -16.85537], 
+        [-17.78525, -16.20308], 
+        [-18.0254, -15.34035], 
+        [-18.91055, -14.77786], 
+        [-19.5405, -14.33081], 
+        [-20.52562, -13.66046], 
+        [-21.41864, -13.08096], 
+        [-22.47867, -12.44752], 
+        [-23.72856, -11.67632], 
+        [-24.48525, -11.09519], 
+        [-25.25756, -10.57167], 
+        [-27.5358, -9.8146], 
+        [-28.56667, -9.50868], 
+        [-29.67714, -9.15307], 
+        [-30.64419, -8.83038], 
+        [-32.08542, -8.4112], 
+        [-33.53252, -7.94612], 
+        [-34.81973, -7.61373]  // South America (Brazil)
     ],
     india_australia: [
       [78.9629, 20.5937], // India
@@ -143,110 +189,144 @@ const routes = {
   
   // Initialize the map
   const map = L.map('map').setView([0, 0], 2);
-  
-  // Add MapTiler tiles
-  L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=YucvbolmP8WJeXxZK3eL', {
+
+// Add MapTiler tiles
+L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=YucvbolmP8WJeXxZK3eL', {
     attribution: '© MapTiler © OpenStreetMap contributors'
-  }).addTo(map);
-  
-  // Custom icon for the starting point
-  const startIcon = L.icon({
+}).addTo(map);
+
+// Custom icon for the starting point
+const startIcon = L.icon({
     iconUrl: 'ship.png', // Path to your custom image
     iconSize: [40, 40], // Size of the icon
     iconAnchor: [20, 40], // Point of the icon that corresponds to the marker's location
     popupAnchor: [0, -40] // Point from which the popup should open relative to the iconAnchor
-  });
-  
-  // Variable to store the current route layer
-  let routeLayer = null;
-  let customRoutePoints = [];
-  let intervalId = null; // To store the interval ID
-  let startMarker = null; // To store the starting point marker
-  
-  // Function to update the route on the map
-  function updateRoute() {
+});
+
+// Variable to store the current route layer
+let routeLayer = null;
+let customRoutePoints = [];
+let intervalId = null; // To store the interval ID
+let startMarker = null; // To store the starting point marker
+
+// OpenWeatherMap API key
+const apiKey = '95ba2bbb99ada440533c5a0e0a7b79cb'; // Replace with your OpenWeatherMap API key
+
+// Function to fetch weather data
+async function fetchWeather(lat, lon) {
+    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
+    try {
+        const response = await fetch(url);
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error fetching weather data:', error);
+    }
+}
+
+// Function to update weather information
+function updateWeather(weatherData) {
+    if (weatherData) {
+        document.getElementById('weather').innerText = weatherData.weather[0].description;
+        document.getElementById('temperature').innerText = `${weatherData.main.temp} °C`;
+        document.getElementById('humidity').innerText = `${weatherData.main.humidity} %`;
+        document.getElementById('windSpeed').innerText = `${weatherData.wind.speed} m/s`;
+    } else {
+        document.getElementById('weather').innerText = '-';
+        document.getElementById('temperature').innerText = '-';
+        document.getElementById('humidity').innerText = '-';
+        document.getElementById('windSpeed').innerText = '-';
+    }
+}
+
+// Function to update the route on the map
+async function updateRoute() {
     // Clear the previous route layer
     if (routeLayer) {
-      map.removeLayer(routeLayer);
+        map.removeLayer(routeLayer);
     }
-  
+
     // Create a new line from the updated custom route points
     const route = turf.lineString(customRoutePoints);
-  
+
     // Add the new route to the map with a dotted line style
     routeLayer = L.geoJSON(route, {
-      style: {
-        color: 'blue',
-        weight: 3,
-        dashArray: '5, 5' // Make the line dotted
-      }
+        style: {
+            color: 'blue',
+            weight: 3,
+            dashArray: '5, 5' // Make the line dotted
+        }
     }).addTo(map);
-  
+
     // Remove the previous starting point marker (if it exists)
     if (startMarker) {
-      map.removeLayer(startMarker);
+        map.removeLayer(startMarker);
     }
-  
+
     // Add a custom icon at the new starting point
     if (customRoutePoints.length > 0) {
-      const startPoint = customRoutePoints[0];
-      startMarker = L.marker([startPoint[1], startPoint[0]], { icon: startIcon }).addTo(map);
+        const startPoint = customRoutePoints[0];
+        startMarker = L.marker([startPoint[1], startPoint[0]], { icon: startIcon }).addTo(map);
+
+        // Fetch weather data for the new starting point
+        const weatherData = await fetchWeather(startPoint[1], startPoint[0]);
+        updateWeather(weatherData);
     }
-  
+
     // Calculate distance
     const distance = turf.length(route, { units: 'kilometers' });
     document.getElementById('distance').innerText = `${distance.toFixed(2)} km`;
-  
+
     // Estimate time (assuming an average ship speed of 20 knots ~ 37 km/h)
     const speed = 37; // km/h
     const timeInHours = distance / speed;
-  
+
     // Convert time into days and hours
     const days = Math.floor(timeInHours / 24);
     const hours = Math.floor(timeInHours % 24);
-  
+
     // Display time in days and hours
     document.getElementById('time').innerText = `${days} days, ${hours} hours`;
-  }
-  
-  // Function to delete one point every 2 seconds
-  function deletePointEveryTwoSeconds() {
-    intervalId = setInterval(() => {
-      if (customRoutePoints.length > 1) {
-        // Remove the first point from the array
-        customRoutePoints.shift();
-        // Update the route on the map
-        updateRoute();
-      } else {
-        // Stop the interval when only one point is left
-        stopTravel();
-        console.log("All points deleted.");
-      }
+}
+
+// Function to delete one point every 2 seconds
+function deletePointEveryTwoSeconds() {
+    intervalId = setInterval(async () => {
+        if (customRoutePoints.length > 1) {
+            // Remove the first point from the array
+            customRoutePoints.shift();
+            // Update the route on the map
+            await updateRoute();
+        } else {
+            // Stop the interval when only one point is left
+            stopTravel();
+            console.log("All points deleted.");
+        }
     }, 500); // 2000 milliseconds = 2 seconds
-  }
-  
-  // Function to load the selected route
-  function loadRoute() {
+}
+
+// Function to load the selected route
+function loadRoute() {
     const selectedRoute = document.getElementById('routeSelector').value;
     customRoutePoints = [...routes[selectedRoute]]; // Copy the selected route
     updateRoute(); // Draw the initial route
-  }
-  
-  // Function to start the travel simulation
-  function startTravel() {
+}
+
+// Function to start the travel simulation
+function startTravel() {
     if (intervalId) {
-      clearInterval(intervalId); // Clear any existing interval
+        clearInterval(intervalId); // Clear any existing interval
     }
     deletePointEveryTwoSeconds(); // Start deleting points
-  }
-  
-  // Function to stop the travel simulation
-  function stopTravel() {
+}
+
+// Function to stop the travel simulation
+function stopTravel() {
     if (intervalId) {
-      clearInterval(intervalId); // Clear the interval
-      intervalId = null; // Reset the interval ID
+        clearInterval(intervalId); // Clear the interval
+        intervalId = null; // Reset the interval ID
     }
-  }
-  
-  // Initial setup
-  loadRoute(); // Automatically load the default route
+}
+
+// Initial setup
+loadRoute(); // Automatically load the default route
